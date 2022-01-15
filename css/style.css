@@ -90,6 +90,20 @@ body{
     margin-left: 15px;
 }
 
+@keyframes slide {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 8px;
+    }
+}
+
+#btn-icon{
+    position: relative;
+    animation: slide 0.9s ease-in-out infinite alternate;
+    animation-play-state: running;
+}
 .button-area i{
     color: whitesmoke;
     font-size: 1em;
