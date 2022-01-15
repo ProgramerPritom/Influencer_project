@@ -46,7 +46,7 @@ body{
 }
 .cart-icon{
     position: relative;
-    left: 490px;
+    left: 470px;
     font-size: 1em;
 }
 /*------> Infulence area style <-----------*/
@@ -103,6 +103,10 @@ body{
     background-repeat: no-repeat;
     
 }
+.influence-img:hover{
+    transform: scale(1.2) rotate(10deg);
+    transition: .5s ease-in-out;
+}
 /*-----------> Popular Collection Area Style <---------- */
 .collection-container{
     width: 100%;
@@ -136,7 +140,7 @@ body{
     width: 100%;
     text-align: center;
     margin-bottom: 23px;
-
+    
     
 }
 
@@ -172,16 +176,21 @@ body{
 padding-right: 20px;
 margin-bottom: 10px;
 }
-.see-more-option{
+.see-more-area{
     position: relative;
+}
+.see-more-option{
+    position: absolute;
     left: 1150px;
-    top: -25px;
+    /* left: 1150px; */
     color: #E02C6D
     ;
     font-weight: bold;
+    top: -25px;
 }
 /* -------------> Contact Section <-------------- */
 .contact-area{
+    margin-top: 100px;
     height: 650px;
 }
 .contact-first{
