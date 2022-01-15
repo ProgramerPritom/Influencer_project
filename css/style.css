@@ -7,7 +7,7 @@ body{
 }
 /* ------> Header Area <--------- */
 .header-area{
-
+    height: 650px;
 }
 .nav-area{
     display: flex;
@@ -51,26 +51,113 @@ body{
 }
 /*------> Infulence area style <-----------*/
 .influence-header{
-
+    display: flex;
 }
 .header-discription{
-
+    width: 50%;
+    margin-left: 50px;
+    top: 120px;
+    position: relative;
+}
+.header-discription h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: 
+    #3A3A3A;
+}
+.header-discription p{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
 .button-area{
-
+    background-color: 
+    #E02C6D;
+    border: 2px solid #E02C6D;
+    width: 220px;
+    padding: 12px 8px;
+    border-radius: 35px;
+    
 }
-.prebook-btn{
-
+.button-area a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 15px;
+}
+.button-area i{
+    color: whitesmoke;
+    font-size: 1em;
+}
+.influence-img{
+    position: relative;
+    top: 100px;
+    left: 90px;
+    background-image: url(../img/Circle\ design.svg);
+    background-repeat: no-repeat;
+    
+}
+/*-----------> Popular Collection Area Style <---------- */
+.collection-container{
+    width: 100%;
+    
+}
+.collection-title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
 }
 
+.collection-albums{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 60px;
+    align-items: center;
+    grid-column-gap: 60px;
+    grid-row-gap: 40px;
+}
+.album-item{
+    
+    padding-top: 15px;
+    
+    padding-bottom: 15px;
+    box-shadow: 3px 7px 50px grey;
+    border-radius: 5px;
+}
+.album-img{
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.album-item h3{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #18191F;
+}
+.album-item p{
+    margin-left: 20px;
+    font-size: 24px;
+    color: #000000;
+}
+.rating-part{
+    margin-left: 20px;
+}
 
-
-
-
-
-
-
-
+.rating-part i{
+    color: #FB8200;
+    font-size: 13px;
+}
+.rating-part span{
+    font-size: 15px;
+}
+.album-text{
+padding-right: 20px;
+margin-bottom: 10px;
+}
 
 
 
