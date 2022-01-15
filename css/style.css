@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -6,24 +10,58 @@ body{
 
 }
 .nav-area{
-
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
 }
 .nav{
 
 }
 .logo-area{
-
+    color: 
+    #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 25px;
 }
 .nav-manu{
-
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 460px;
 }
-.cart-icon{
+.nav-manu li{
+    list-style: none;
+    display: inline;
     
 }
+.nav-manu li a{
+    text-decoration: none;
+    /* margin: 20px; */
+    font-size: 23px;
+    padding: 15px;
+    color: 
+    #3A3A3A;
+}
+.cart-icon{
+    position: relative;
+    left: 490px;
+    font-size: 1em;
+}
+/*------> Infulence area style <-----------*/
+.influence-header{
 
+}
+.header-discription{
 
+}
+.button-area{
 
+}
+.prebook-btn{
 
+}
 
 
 
