@@ -272,3 +272,122 @@ top: 45px;
     color: #E02C6D ;
     transition: .3s ease-in-out;
 }
+
+/* -----------> Media Query style <------------------ */
+
+/* For Phone Device */
+
+@media only screen and (max-width:488px) {
+    .nav-area{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cart-icon{
+        left: 35px;
+        font-size: 24px;
+    }
+    
+    .nav-manu{
+        display: none;
+    }
+
+    .influence-header{
+        display: flex;
+        flex-direction: column;
+        /* height: 800px; */
+        width: 100%;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .header-discription{
+        top: 0;
+    }
+    .influence-img{
+        top: 0;
+        left: 0;
+    }
+    .collection-container{
+        margin-top: 700px;
+    }
+    .collection-albums{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .see-more-option{
+        left: 135px;
+        top: -5px;
+    }
+
+    .input-field{
+        width: 90%;
+    }
+
+}
+
+/* ---------->>>> Tablet <<<---------------- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    
+    .logo-area{
+        font-size: 40px;
+    }
+    .nav-manu{
+        display: none;
+    }
+    .cart-icon{
+        left: 330px;
+        font-size: 40px;
+    }
+
+   .influence-img{
+       left: 30px;
+   }
+   .collection-title{
+       margin-top: 75px;
+   }
+   .collection-albums{
+       grid-template-columns: repeat(2,1fr);
+   }
+
+   .see-more-option{
+       left: 600px;
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
