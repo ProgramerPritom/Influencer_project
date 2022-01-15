@@ -268,4 +268,7 @@ top: 45px;
     border-radius: 50%;
     background-color: #22213C;
 }
-
+.footer-icon i:hover{
+    color: #E02C6D ;
+    transition: .3s ease-in-out;
+}
